@@ -1,24 +1,79 @@
 body {
+	max-width: 1000px;
+	min-width: 400px;
+	margin: 0 auto;
+	background-image: url("https://cdn.pixabay.com/photo/2016/06/23/13/15/wall-1475318__340.jpg");
+	box-sizing:  border-box;
 }
+
 h1 {
-
+	padding: 30px;
+	background-color: white;
+	color: #CC9900;
+	text-shadow: 1px 1px #CC9933;
+	box-shadow: 5px 5px #CC9933;
+	text-align: center;
 }
+
+p {
+	text-align: right;
+	background-color: white;
+	text-decoration: none;
+	padding:10px;
+}
+
 h1:hover {
-
-}
-zwrotka {
-
-}
-zwrotka:hover {
-
-}
-refren {
-
-}
-refren:hover {
-
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	color: white;
+	text-shadow: 1px 1px white;
 }
 
-stopka {
+.zwrotka {
+	padding: 10px;
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	color: black;
+	width: 400px;
+	box-shadow: 3px 3px #CC9933;
+	font-size: 28px;
+	font-weight: 600;
+	display: inline-block;
+}
 
+.zwrotka:hover {
+	color: black;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.refren {
+	margin: 0 45%;
+	padding: 5px;
+	background-color: white;
+	color: #CC9900;
+	width: 300px;
+	box-shadow: 3px 3px white;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.refren:hover {
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	color: black;
+	text-shadow: 1px 1px black;
+	box-shadow: 5px 5px #CC9933;	
+}
+
+img {
+	margin: 0 5%;
+	width: auto;
+	height: 250px;
+}
+
+.stopka {
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	color: black;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	font-weight: 900;
 }
