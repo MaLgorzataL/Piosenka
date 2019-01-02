@@ -16,10 +16,13 @@ h1 {
 }
 
 p {
+	margin-left: 70%;
+	width: 25%;
 	text-align: right;
 	background-color: white;
-	text-decoration: none;
-	padding:10px;
+	color:  #CC9900;
+	padding: 10px;
+	font-size: 20px;
 }
 
 h1:hover {
