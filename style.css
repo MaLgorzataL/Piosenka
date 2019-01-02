@@ -16,21 +16,12 @@ h1 {
 }
 
 p {
-<<<<<<< HEAD
-	margin-left: 70%;
-	background-color: white;
-	color:  #CC9900;
-	padding: 10px;
 	font-size: 20px;
-	width: 200px;
-	text-align: center;
-=======
 	margin-left: 60%;
 	width: 200px;
 	text-align: center;
 	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
 	padding:10px;
->>>>>>> task-4-02
 }
 
 h1:hover {
