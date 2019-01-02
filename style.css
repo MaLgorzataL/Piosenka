@@ -16,9 +16,10 @@ h1 {
 }
 
 p {
-	text-align: right;
+	margin-left: 70%;
+	width: 200px;
+	text-align: center;
 	background-color: white;
-	text-decoration: none;
 	padding:10px;
 }
 
