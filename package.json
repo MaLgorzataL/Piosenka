@@ -1,0 +1,21 @@
+{
+  "name": "Piosenka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+  
+	"init-project": "mkdirp sass css vendor images js && 	touch README.md index.html sass/style.scss js/script.js && curl://raw.githubusercontent.com/github/gitignore/master/	Node.gitignore -o .gitignore"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "globstar": "^1.0.0",
+    "nu-html-checker": "^0.1.0"
+  }
+}
