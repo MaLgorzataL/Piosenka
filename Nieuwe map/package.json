@@ -1,0 +1,36 @@
+{
+  "name": "Piosenka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+    "init-project": "npm install && npm install -g mkdirp && npm run init:*",
+    "init:dirs": "mkdirp sass css vendor images js",
+    "init:files": "touch README.md index.html sass/style.scss js/script.js",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "build": "npm install rimraf && npm-run-all build:* && npm run test",
+    "build:clean": "rimraf(css/*.css, callback)",
+    "build:sass": "node-sass --output-style compact -o css sass",
+    "build:autoprefixer": "autoprefixer-cli css/style.css",
+    "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
+    "watch:sass": "node-sass --output-style expanded --source map true -o css sass",
+    "watch:sassprefixer": "onchange -d 100 css/style.css cleanprefix",
+    "cleanprefix": "node-sass --output-style expanded --source map true -o css sass && npm autoprefixer-cli -o css/style.css",
+    "watch": "npm run build && npm-run-all watch:*",
+    "watch:browsersync": "npm run browsersync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "globstar": "^1.0.0",
+    "nu-html-checker": "^0.1.0"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  }
+}
