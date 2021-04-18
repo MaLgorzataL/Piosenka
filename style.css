@@ -11,7 +11,6 @@ h1 {
 	background-color: white;
 	color: #CC9900;
 	text-shadow: 1px 1px #CC9933;
-	box-shadow: 5px 5px #CC9933;
 	text-align: center;
 }
 
@@ -20,12 +19,12 @@ p {
 	margin-left: 60%;
 	width: auto;
 	text-align: center;
-	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738__340.jpg");
 	padding: 10px;
 }
 
 h1:hover {
-	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738__340.jpg");
 	color: white;
 	text-shadow: 1px 1px white;
 }
@@ -37,10 +36,9 @@ p:hover {
 
 .zwrotka {
 	padding: 10px;
-	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738__340.jpg");
 	color: black;
 	width: 400px;
-	box-shadow: 3px 3px #CC9933;
 	font-size: 28px;
 	font-weight: 600;
 	display: inline-block;
@@ -58,16 +56,14 @@ p:hover {
 	background-color: white;
 	color: #CC9900;
 	width: 300px;
-	box-shadow: 3px 3px white;
 	font-size: 25px;
 	font-weight: 900;
 }
 
 .refren:hover {
-	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738__340.jpg");
 	color: black;
 	text-shadow: 1px 1px black;
-	box-shadow: 5px 5px #CC9933;	
 }
 
 img {
@@ -77,7 +73,7 @@ img {
 }
 
 .stopka {
-	background-image: url("https://cdn.pixabay.com/photo/2016/11/21/13/29/color-1845394__340.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738__340.jpg");
 	color: black;
 	padding: 10px;
 	margin: 20px;
